@@ -3,21 +3,118 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Website</title>
+    <title>Employee Engineering Center</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <main class="page">
-      <article class="fact-widget" aria-labelledby="fact-title">
-        <p class="fact-widget__label">Surprise fact</p>
-        <h1 id="fact-title">Modern delivery is part of software engineering.</h1>
-        <p>
-          DevOps favors versioned code, automated tests, repeatable pipelines,
-          and observable releases over manual handoffs. In ServiceNow, update
-          sets can move configuration, but they do not replace source control,
-          CI/CD discipline, testing, and release governance.
-        </p>
-      </article>
+    <header class="portal-header">
+      <a class="portal-brand" href="#" aria-label="Employee Engineering Center home">
+        <span class="portal-brand__mark" aria-hidden="true"></span>
+        <span>
+          <strong>Employee Engineering Center</strong>
+          <small>Digital services</small>
+        </span>
+      </a>
+
+      <nav class="portal-nav" aria-label="Portal navigation">
+        <a href="#">My Requests</a>
+        <a href="#">Knowledge</a>
+        <a href="#">Teams</a>
+      </nav>
+
+      <button class="profile-button" type="button" aria-label="Open profile">
+        SG
+      </button>
+    </header>
+
+    <main class="portal-page">
+      <section class="portal-hero" aria-labelledby="portal-title">
+        <p class="eyebrow">Employee self-service</p>
+        <h1 id="portal-title">What can we help you get done today?</h1>
+        <label class="search-box">
+          <span class="sr-only">Search services, requests, and knowledge</span>
+          <input
+            type="search"
+            placeholder="Search services, requests, and knowledge"
+          />
+          <button type="button">Search</button>
+        </label>
+      </section>
+
+      <section class="portal-layout" aria-label="Employee portal content">
+        <div class="portal-main">
+          <section class="panel" aria-labelledby="quick-actions-title">
+            <div class="panel-heading">
+              <h2 id="quick-actions-title">Quick actions</h2>
+              <a href="#">View all</a>
+            </div>
+
+            <div class="action-grid">
+              <a href="#" class="action-tile">
+                <strong>Request software</strong>
+                <span>Access approved engineering tools.</span>
+              </a>
+              <a href="#" class="action-tile">
+                <strong>Report an issue</strong>
+                <span>Raise an incident for blocked work.</span>
+              </a>
+              <a href="#" class="action-tile">
+                <strong>API access</strong>
+                <span>Start an integration approval request.</span>
+              </a>
+              <a href="#" class="action-tile">
+                <strong>Deployment help</strong>
+                <span>Find release guidance and runbooks.</span>
+              </a>
+            </div>
+          </section>
+
+          <article class="panel fact-widget" aria-labelledby="fact-title">
+            <p class="eyebrow">Surprise fact</p>
+            <h2 id="fact-title">Modern delivery is part of software engineering.</h2>
+            <p>
+              DevOps favors versioned code, automated tests, repeatable
+              pipelines, and observable releases over manual handoffs. In
+              ServiceNow, update sets can move configuration, but they do not
+              replace source control, CI/CD discipline, testing, and release
+              governance.
+            </p>
+          </article>
+        </div>
+
+        <aside class="portal-sidebar" aria-label="Personal work">
+          <section class="panel" aria-labelledby="tasks-title">
+            <div class="panel-heading">
+              <h2 id="tasks-title">My work</h2>
+              <span>3 open</span>
+            </div>
+
+            <ul class="task-list">
+              <li>
+                <strong>Review access request</strong>
+                <span>Due today</span>
+              </li>
+              <li>
+                <strong>Approve release window</strong>
+                <span>Platform engineering</span>
+              </li>
+              <li>
+                <strong>Read CI/CD standard</strong>
+                <span>Knowledge article</span>
+              </li>
+            </ul>
+          </section>
+
+          <section class="panel announcement" aria-labelledby="news-title">
+            <p class="eyebrow">Announcement</p>
+            <h2 id="news-title">Deployment checklist updated</h2>
+            <p>
+              The release checklist now includes rollback evidence and service
+              health checks.
+            </p>
+          </section>
+        </aside>
+      </section>
     </main>
   </body>
 </html>
