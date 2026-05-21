@@ -4,88 +4,187 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Employee Engineering Center</title>
+
     <link rel="stylesheet" href="styles.css" />
+
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
   </head>
+
   <body>
     <header class="portal-header">
-      <a class="portal-brand" href="#" aria-label="Employee Engineering Center home">
-        <span class="portal-brand__mark" aria-hidden="true"></span>
+      <a
+        class="portal-brand"
+        href="#"
+        aria-label="Employee Engineering Center home"
+      >
+        <span
+          class="portal-brand__mark"
+          aria-hidden="true"
+        ></span>
+
         <span>
           <strong>Employee Engineering Center</strong>
           <small>Digital services</small>
         </span>
       </a>
 
-      <nav class="portal-nav" aria-label="Portal navigation">
+      <nav
+        class="portal-nav"
+        aria-label="Portal navigation"
+      >
         <a href="#">My Requests</a>
         <a href="#">Knowledge</a>
         <a href="#">Teams</a>
       </nav>
 
-      <button class="profile-button" type="button" aria-label="Open profile">
+      <button
+        class="profile-button"
+        type="button"
+        aria-label="Open profile"
+      >
         SG
       </button>
     </header>
 
     <main class="portal-page">
-      <section class="portal-hero" aria-labelledby="portal-title">
+      <section
+        class="portal-hero"
+        aria-labelledby="portal-title"
+      >
         <p class="eyebrow">Employee self-service</p>
-        <h1 id="portal-title">What can we help you get done today?</h1>
+
+        <h1 id="portal-title">
+          What can we help you get done today?
+        </h1>
+
         <label class="search-box">
-          <span class="sr-only">Search services, requests, and knowledge</span>
+          <span class="sr-only">
+            Search services, requests, and knowledge
+          </span>
+
           <input
             type="search"
             placeholder="Search services, requests, and knowledge"
           />
-          <button type="button">Search</button>
+
+          <button type="button">
+            Search
+          </button>
         </label>
       </section>
 
-      <section class="portal-layout" aria-label="Employee portal content">
+      <section
+        class="portal-layout"
+        aria-label="Employee portal content"
+      >
         <div class="portal-main">
-          <section class="panel" aria-labelledby="quick-actions-title">
+          <section
+            class="panel"
+            aria-labelledby="quick-actions-title"
+          >
             <div class="panel-heading">
-              <h2 id="quick-actions-title">Quick actions</h2>
+              <h2 id="quick-actions-title">
+                Quick actions
+              </h2>
+
               <a href="#">View all</a>
             </div>
 
             <div class="action-grid">
-              <a href="#" class="action-tile">
+              <a
+                href="#"
+                class="action-tile"
+              >
                 <strong>Request software</strong>
-                <span>Access approved engineering tools.</span>
+
+                <span>
+                  Access approved engineering tools.
+                </span>
               </a>
-              <a href="#" class="action-tile">
+
+              <a
+                href="#"
+                class="action-tile"
+              >
                 <strong>Report an issue</strong>
-                <span>Raise an incident for blocked work.</span>
+
+                <span>
+                  Raise an incident for blocked work.
+                </span>
               </a>
-              <a href="#" class="action-tile">
+
+              <a
+                href="#"
+                class="action-tile"
+              >
                 <strong>API access</strong>
-                <span>Start an integration approval request.</span>
+
+                <span>
+                  Start an integration approval request.
+                </span>
               </a>
-              <a href="#" class="action-tile">
+
+              <a
+                href="#"
+                class="action-tile"
+              >
                 <strong>Deployment help</strong>
-                <span>Find release guidance and runbooks.</span>
+
+                <span>
+                  Find release guidance and runbooks.
+                </span>
               </a>
             </div>
           </section>
 
-          <article class="panel fact-widget" aria-labelledby="fact-title">
+          <article
+            class="panel fact-widget"
+            aria-labelledby="fact-title"
+          >
             <p class="eyebrow">Surprise fact</p>
-            <h2 id="fact-title">Modern delivery is part of software engineering.</h2>
+
+            <h2 id="fact-title">
+              Modern delivery is part of software engineering.
+            </h2>
+
             <p>
-              DevOps favors versioned code, automated tests, repeatable
-              pipelines, and observable releases over manual handoffs. In
-              ServiceNow, update sets can move configuration, but they do not
-              replace source control, CI/CD discipline, testing, and release
-              governance.
+              DevOps favors versioned code, automated tests,
+              repeatable pipelines, and observable releases
+              over manual handoffs. In ServiceNow, update
+              sets can move configuration, but they do not
+              replace source control, CI/CD discipline,
+              testing, and release governance.
             </p>
           </article>
         </div>
 
-        <aside class="portal-sidebar" aria-label="Personal work">
-          <section class="panel" aria-labelledby="tasks-title">
+        <aside
+          class="portal-sidebar"
+          aria-label="Personal work"
+        >
+          <section
+            class="panel"
+            aria-labelledby="tasks-title"
+          >
             <div class="panel-heading">
-              <h2 id="tasks-title">My work</h2>
+              <h2 id="tasks-title">
+                My work
+              </h2>
+
               <span>3 open</span>
             </div>
 
@@ -94,10 +193,12 @@
                 <strong>Review access request</strong>
                 <span>Due today</span>
               </li>
+
               <li>
                 <strong>Approve release window</strong>
                 <span>Platform engineering</span>
               </li>
+
               <li>
                 <strong>Read CI/CD standard</strong>
                 <span>Knowledge article</span>
@@ -105,12 +206,19 @@
             </ul>
           </section>
 
-          <section class="panel announcement" aria-labelledby="news-title">
+          <section
+            class="panel announcement"
+            aria-labelledby="news-title"
+          >
             <p class="eyebrow">Announcement</p>
-            <h2 id="news-title">Deployment checklist updated</h2>
+
+            <h2 id="news-title">
+              Deployment checklist updated
+            </h2>
+
             <p>
-              The release checklist now includes rollback evidence and service
-              health checks.
+              The release checklist now includes rollback
+              evidence and service health checks.
             </p>
           </section>
         </aside>
