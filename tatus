@@ -1,0 +1,65 @@
+[33mcommit ea7b5d66096406a7ace7b713bb4c013eb8c8b0ca[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Shubham Kumar Soni <sudhanshusoni227@gmail.com>
+Date:   Fri May 22 00:20:56 2026 +0530
+
+    Updated the logo/company name
+
+[33mcommit d6dea603d347393d3efd9c65a809c0b15f6989e8[m
+Author: Shubham Kumar Soni <sudhanshusoni227@gmail.com>
+Date:   Fri May 22 00:17:57 2026 +0530
+
+    New update to make it look like service portal
+
+[33mcommit 018c0ef6bd9b658c086872f41a018cbd5973d5b9[m
+Author: Shubham Kumar Soni <91335667+shubham-250320@users.noreply.github.com>
+Date:   Fri May 22 00:13:57 2026 +0530
+
+    Update index.html
+
+[33mcommit 590e7ba9bed0a859ac1d6926b6bf7172add4a556[m
+Author: Shubham Kumar Soni <91335667+shubham-250320@users.noreply.github.com>
+Date:   Fri May 22 00:12:27 2026 +0530
+
+    Fix missing newline at end of styles.css
+
+[33mcommit ef8a3cb1ead06adb89dd24cc21ba7646cad6823c[m
+Author: Shubham Kumar Soni <sudhanshusoni227@gmail.com>
+Date:   Fri May 22 00:08:12 2026 +0530
+
+    Updated website to look like service portal
+
+[33mcommit 238c6fe62b9ee1a4a390945a5aaeac610e6eadf3[m[33m ([m[1;32mnew_widget[m[33m)[m
+Author: Shubham Kumar Soni <sudhanshusoni227@gmail.com>
+Date:   Thu May 21 23:50:59 2026 +0530
+
+    Addinf new widget
+
+[33mcommit c2d8e50eb3ea9bae7c530453b1da9bd3c518bb69[m
+Author: Shubham Kumar Soni <sudhanshusoni227@gmail.com>
+Date:   Thu May 21 23:44:29 2026 +0530
+
+    Change background to green
+
+[33mcommit c57ca6ab71846c332e7a670e861264353707bf7d[m
+Author: Shubham Kumar Soni <sudhanshusoni227@gmail.com>
+Date:   Thu May 21 23:38:32 2026 +0530
+
+    updated background to red
+
+[33mcommit 322d9becb93e390a4c5fa1240e896607b546aa56[m
+Author: Shubham Kumar Soni <sudhanshusoni227@gmail.com>
+Date:   Thu May 21 23:33:59 2026 +0530
+
+    Add GitHub Actions deployment
+
+[33mcommit 42ff779d3d53d2dd52ee39654e927015bb6efb3d[m
+Author: Shubham Kumar Soni <sudhanshusoni227@gmail.com>
+Date:   Thu May 21 23:27:45 2026 +0530
+
+    first commit
+
+[33mcommit 4a63d72291d77433ed51f6d1105c5ccf06acfe99[m
+Author: Shubham Kumar Soni <sudhanshusoni227@gmail.com>
+Date:   Thu May 21 23:24:43 2026 +0530
+
+    Initial commit
