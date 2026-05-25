@@ -1,7 +1,7 @@
 document
-    .getElementById("btn")
-    .addEventListener("click", () => {
+  .getElementById("btn")
+  .addEventListener("click", () => {
 
-        alert("CI/CD Pipeline Working Successfully!");
+    alert("CI/CD Pipeline Working Successfully!");
 
-    });
+  });
