@@ -1,7 +1,11 @@
-document
-  .getElementById("btn")
-  .addEventListener("click", () => {
+document.addEventListener("DOMContentLoaded", () => {
+
+  const button = document.getElementById("btn");
+
+  button.addEventListener("click", () => {
 
     alert("CI/CD Pipeline Working Successfully!");
 
   });
+
+});
